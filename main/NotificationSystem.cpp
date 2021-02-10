@@ -17,6 +17,7 @@ const CNotificationSystem::_tNotificationTypeTable CNotificationSystem::typeTabl
 	{ Notification::HW_STOP,         "hardwareStop"    },
 	{ Notification::HW_THREAD_ENDED, "threadEnded"     },
 	{ Notification::DZ_CUSTOM,       "customEvent"     },
+	{ Notification::DZ_EVENTRESET,   "resetAllEvents"  },
 };
 
 const CNotificationSystem::_tNotificationStatusTable CNotificationSystem::statusTable[] =

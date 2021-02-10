@@ -13,7 +13,8 @@ public:
 		HW_START,        // 5
 		HW_STOP,         // 6
 		HW_THREAD_ENDED, // 7
-		DZ_CUSTOM        // 8
+		DZ_CUSTOM,       // 8
+		DZ_EVENTRESET
 	};
 
 	enum _eStatus : uint8_t

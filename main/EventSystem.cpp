@@ -289,6 +289,7 @@ void CEventSystem::LoadEvents()
 			}
 		}
 	}
+	m_mainworker.m_notificationsystem.Notify(Notification::DZ_EVENTRESET, Notification::STATUS_INFO);
 #ifdef _DEBUG
 	_log.Log(LOG_STATUS, "EventSystem: Events (re)loaded");
 #endif
